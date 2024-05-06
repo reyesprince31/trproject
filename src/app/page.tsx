@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomePage() {
   const mockUrls = [
     "https://utfs.io/f/723692f3-62b3-4982-b63f-54e195b98e0c-65e5r9.png",
@@ -16,7 +18,7 @@ export default function HomePage() {
       <div className="flex flex-wrap gap-4">
         {[...mockImages, ...mockImages, ...mockImages].map((image) => (
           <div key={image.id} className="w-48">
-            <img src={image.url} alt="image" />
+            <Image src={image.url} alt="image" />
           </div>
         ))}
       </div>
