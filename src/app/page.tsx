@@ -14,7 +14,7 @@ export default function HomePage() {
   }));
 
   return (
-    <main className=" ">
+    <main>
       <div className="flex flex-wrap gap-4">
         {[...mockImages, ...mockImages, ...mockImages].map((image) => (
           <div key={image.id} className="w-48">
