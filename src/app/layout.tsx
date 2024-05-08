@@ -31,7 +31,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans ${inter.variable} flex flex-col gap-4`}>
         <TopNav />
-        <TopNav />
         {children}
       </body>
     </html>
